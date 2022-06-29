@@ -1,0 +1,84 @@
+.header
+{
+    background-color: lightcyan;
+}
+.webback
+{
+    background-color: lightskyblue;
+}
+.navbar-style
+{
+    box-shadow: 0 5px 10px darkblue;
+    text-transform: uppercase;
+}
+.logo
+{
+    height: 48px;
+    padding: 2px 10px;
+}
+.icon-bar
+{
+    background: black;
+}
+li a
+{
+    color: #333;
+}
+.big-text
+{
+    font-size: 52px;
+    margin: 20px 0;
+    color: darkcyan;
+}
+a.btn
+{
+    margin: 30px 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+}
+a.btn-first
+{
+    background-color: aqua;
+    border: 1px solid black;
+    color: #333;
+}
+a.btn-second
+{
+    background-color: aqua;
+    border: 1px solid black;
+    color: #333;
+}
+.carousel 
+{
+    width:580px;
+    height:330px;
+    margin: 0 auto;
+}
+.carousel-inner
+{       
+    display:block;
+    height: auto; 
+    max-width: 100%;
+ }
+.card {
+    border: 2px solid green;
+    background-color: lightgray; 
+}
+
+.card:hover {
+    border: 2px solid cyan ; 
+}
+.card-graphics {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 5px;
+}
+.card-container
+{
+    justify-content: flex-start;
+    display:grid;
+    grid-template-columns: 3fr 3fr 3fr;
+}
